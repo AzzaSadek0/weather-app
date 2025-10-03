@@ -1,4 +1,5 @@
-﻿# weather-app
+# Weather App
+
 A simple and elegant weather application built with Python and Tkinter that provides real-time weather information using the OpenWeatherMap API.
 
 ## Features
@@ -20,7 +21,7 @@ A simple and elegant weather application built with Python and Tkinter that prov
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+git clone https://github.com/AzzaSadek0/weather-app.git
 ```
 
 2. Install required packages:
@@ -31,7 +32,9 @@ pip install requests
 3. Get an API key from OpenWeatherMap:
    - Sign up at [OpenWeatherMap](https://openweathermap.org/)
    - Generate an API key
-   - Replace the API key in `weather_app.py`
+   - Replace `YOUR_API_KEY_HERE` in `weather_app.py` with your actual API key
+   
+   **Important:** Never commit your actual API key to GitHub. The API key in the code should always be kept private.
 
 ## Usage
 
@@ -40,4 +43,3 @@ Run the application:
 python weather_app.py
 ```
 Enter a city name and click "Search" to get the current weather information.
-
