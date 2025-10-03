@@ -34,7 +34,6 @@ pip install requests
    - Generate an API key
    - Replace `YOUR_API_KEY_HERE` in `weather_app.py` with your actual API key
    
-   **Important:** Never commit your actual API key to GitHub. The API key in the code should always be kept private.
 
 ## Usage
 
@@ -43,3 +42,4 @@ Run the application:
 python weather_app.py
 ```
 Enter a city name and click "Search" to get the current weather information.
+
