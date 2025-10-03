@@ -12,7 +12,7 @@ class WeatherApp:
         self.root.resizable(False, False)
         
         # API Key
-        self.api_key = "3831b2a593b0fa5cd66538cc2b9133d5" 
+        self.api_key = "YOUR_API_KEY_HERE"
         
         
         # Create GUI elements
@@ -98,4 +98,5 @@ class WeatherApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = WeatherApp(root)
+
     root.mainloop()
